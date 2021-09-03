@@ -21,34 +21,34 @@
         />
 
     <!-- app:lock_spacing is NOT given, it applies Identical-Area mode -->
-<!--    <com.dyaco.c_patternlockviewreginald.PatternLockView-->
-<!--        android:id="@+id/lock_view_circle"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:layout_gravity="center"-->
-<!--        app:lock_size="3"-->
-<!--        app:lock_enableVibrate="true"-->
-<!--        app:lock_vibrateTime="100"-->
-<!--        app:lock_lineColor="#a2ffffff"-->
-<!--        app:lock_lineCorrectColor="#a2008800"-->
-<!--        app:lock_lineErrorColor="#a2880000"-->
-<!--        app:lock_lineWidth="8dp"-->
-<!--        app:lock_nodeSize="40dp"-->
-<!--        app:lock_nodeTouchExpand="15dp"-->
-<!--        app:lock_nodeSrc="@drawable/ic_launcher_foreground"-->
-<!--        app:lock_nodeCorrectSrc="@drawable/ic_baseline_check_circle_24"-->
-<!--        app:lock_nodeErrorSrc="@drawable/ic_baseline_cancel_24"-->
-<!--        app:lock_autoLink="true"-->
-<!--        />-->
+    <com.dyaco.c_patternlockviewreginald.PatternLockView
+        android:id="@+id/lock_view_circle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:lock_size="3"
+        app:lock_enableVibrate="true"
+        app:lock_vibrateTime="100"
+        app:lock_lineColor="#a2ffffff"
+        app:lock_lineCorrectColor="#a2008800"
+        app:lock_lineErrorColor="#a2880000"
+        app:lock_lineWidth="8dp"
+        app:lock_nodeSize="40dp"
+        app:lock_nodeTouchExpand="15dp"
+        app:lock_nodeSrc="@drawable/ic_launcher_foreground"
+        app:lock_nodeCorrectSrc="@drawable/ic_baseline_check_circle_24"
+        app:lock_nodeErrorSrc="@drawable/ic_baseline_cancel_24"
+        app:lock_autoLink="true"
+        />
 
     <!-- app:lock_spacing is given, it applies SpacingPadding mode -->
     <com.dyaco.c_patternlockviewreginald.PatternLockView
         android:id="@+id/lock_view_dot"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        app:lock_size="10"
+        app:lock_size="4"
         app:lock_enableVibrate="true"
         app:lock_vibrateTime="100"
         app:lock_lineColor="#b2ffffff"
