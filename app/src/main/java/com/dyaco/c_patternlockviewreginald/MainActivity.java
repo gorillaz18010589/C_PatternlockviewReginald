@@ -2,6 +2,7 @@ package com.dyaco.c_patternlockviewreginald;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -163,5 +164,9 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         // DO NOT FORGET TO CALL IT!
         mCurLockView.stopPasswordAnim();
+    }
+
+    public void toPage2(View view) {
+        startActivity(new Intent(MainActivity.this, SecondActivity.class                                                                                                                                                                    ));
     }
 }
